@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>steven bui</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="container">
+    
+    <button id="themeToggle" class="theme-toggle">
+      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path class="sun hidden dark:block" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+        <path class="moon dark:hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+      </svg>
+    </button>
+    
+    <div class="banner">
+      <img src="https://i.pinimg.com/originals/08/a6/66/08a6664214b91eaee86cde1ccf2c0398.gif" alt="header banner">
+    </div>
+    
+    <header class="header">
+      <h1>
+        hey, i'm <span class="name">steven</span>
+      </h1>
+      <p>
+        a software engineer. currently working on web apps and exploring new tech.
+      </p>
+      
+      <div class="links">
+        <a href="https://github.com/sbui056" target="_blank" rel="noopener">
+          github →
+        </a>
+        <a href="https://linkedin.com/in/stevenbuii" target="_blank" rel="noopener">
+          linkedin →
+        </a>
+        <a href="mailto:sbui056@gmail.com">
+          email →
+        </a>
+        <a href="/resume.pdf" target="_blank">
+          resume →
+        </a>
+      </div>
+    </header>
+
+    <section class="section">
+      <h2>experience</h2>
+      <div class="items">
+        <div class="item">
+          <div class="item-header">
+            <h3>lead instructor</h3>
+            <span class="item-date">2024 - present</span>
+          </div>
+          <p class="item-company">code ninjas</p>
+          <p class="item-description">
+            introduced USACO to the next generation of programmers.
+          </p>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <h3>teaching assistant</h3>
+            <span class="item-date">2025</span>
+          </div>
+          <p class="item-company">stanford university</p>
+          <p class="item-description">
+            taught students fundamentals of python.
+          </p>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <h3>instructor</h3>
+            <span class="item-date">2023 - 2024</span>
+          </div>
+          <p class="item-company">mathnasium</p>
+          <p class="item-description">
+            got gifted a toothbrush from student's career day.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>projects</h2>
+      <div class="items">
+        <div class="item">
+          <div class="item-header">
+            <h3>liftsocial - fitness social media app</h3>
+            <span class="item-date"></span>
+          </div>
+          <p class="item-description">
+            full-stack with react, node.js, and supabase to share lifts.
+          </p>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <h3>stock tracker</h3>
+            <span class="item-date"></span>
+          </div>
+          <p class="item-description">
+            live market data through YFinance API graphed with Plotly.
+          </p>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <h3>workout today - exercise catalog</h3>
+            <span class="item-date"></span>
+          </div>
+          <p class="item-description">
+            40+ exercises with personal notes and recommendations.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
