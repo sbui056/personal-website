@@ -9,14 +9,9 @@
       }
     }
   ],
-  "buildCommand": "npm run build",
-  "installCommand": "npm install --ignore-optional",
+  "buildCommand": "ROLLUP_SKIP_NATIVE=true npm run build",
+  "installCommand": "npm install --omit=optional",
   "framework": null,
-  "functions": {
-    "app/api/**/*.js": {
-      "runtime": "nodejs18.x"
-    }
-  },
   "build": {
     "env": {
       "NODE_OPTIONS": "--max-old-space-size=4096",
