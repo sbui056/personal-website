@@ -19,3 +19,6 @@ if (savedTheme === 'dark') {
 }
 
 themeToggle?.addEventListener('click', toggleTheme) 
+
+import { inject } from '@vercel/analytics';
+inject();
