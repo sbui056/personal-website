@@ -8,7 +8,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: './index.html'
-      }
+      },
+      external: ['/_vercel/insights/script.js']
     }
   },
   server: {
