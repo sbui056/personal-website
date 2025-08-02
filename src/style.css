@@ -210,3 +210,14 @@ body.dark {
 ::-webkit-scrollbar-thumb:hover {
   background: #94a3b8;
 } 
+
+#runaway {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  transition: top 0.25s ease, left 0.25s ease;
+  z-index: 1000;
+  pointer-events: none;
+}
